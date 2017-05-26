@@ -29,7 +29,7 @@ In your controller, add use statement:
 
 `use Cleverleap\Thumbnail\Thumbnail;`
 
-To generate picture and display it to the user, pick a method that will respond with a picture thumbnail. 
+To generate picture and display it to the user, pick a method that will respond with a picture thumbnail. Here is an example. Method `getIndex` is a controller method that takes in `$path` which is path to the file. This particular controller responds to "thumb/path/to/picture.png?w=200&h=200" url and you may use it the same way.
 
 `public function getIndex($path) {
 		
@@ -43,7 +43,6 @@ To generate picture and display it to the user, pick a method that will respond 
 		
 		$thumbnail->make($path);
 	}`
-
 
 ## License
 
