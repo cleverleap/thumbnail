@@ -1,0 +1,22 @@
+{
+    "name": "cleverleap/thumbnail",
+    "description": "Generates thumbnail for PNG, GIF and JPEG pictures.",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Stefan Vantroba",
+            "email": "stefan@cleverleap.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+	    "php": ">=5.6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cleverleap\\Thumbnail\\": "src/"
+        }
+    }
+}
