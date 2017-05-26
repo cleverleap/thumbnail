@@ -31,8 +31,7 @@ In your controller, add use statement:
 
 To generate picture and display it to the user, pick a method that will respond with a picture thumbnail. 
 
-`
-	public function getIndex($path) {
+`public function getIndex($path) {
 		
 		$thumbnail = new Thumbnail(['cacheDir'=>'userdata/cacheimages/']);
 		$thumbnail->setWidth( $this->request->get('w') )
@@ -43,8 +42,8 @@ To generate picture and display it to the user, pick a method that will respond 
 		}
 		
 		$thumbnail->make($path);
-	}
-`
+	}`
+
 
 ## License
 
